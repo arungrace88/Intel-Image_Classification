@@ -13,6 +13,7 @@ The dataset contain around 14K training images and 3K test images. The input bel
 The model achieves just over 80% validation accuracy. Tried another iteration with data augmentation, which  resulted in lower accuracy for this particular dataset. The training and validation losses for various epochs are shown below:
 
 ![Iter1_plot](https://user-images.githubusercontent.com/20210669/103241065-ff52f880-4949-11eb-8697-78c1f34c9caf.png)
+
 The plot reveals that the model starts overfitting in the early epochs. Different ways to improve the model:
 
  - Using pretrained network such as Xception, Resnet50, VGG16 etc.
